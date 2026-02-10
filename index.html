@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Upacara Mepandes</title>
+    <meta
+      name="description"
+      content="Undangan Upacara Mepandes - Upacara Potong Gigi dalam Tradisi Hindu Bali"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ======================== LOADING SCREEN ======================== -->
+    <div id="loadingScreen" class="loading-screen">
+      <div class="loading-content">
+        <span class="loading-symbol">ꦎꦴ</span>
+        <p class="loading-text">
+          Memuat Undangan<span class="loading-dots"></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- ======================== COVER / LANDING PAGE ======================== -->
+    <section id="cover" class="cover">
+      <div class="cover-bg-overlay"></div>
+      <img src="assets/bg.png" alt="" class="cover-floral" aria-hidden="true" />
+      <div class="cover-content">
+        <div class="cover-ornament">
+          <img
+            src="assets/ornament.png"
+            alt="Ornamen Bali"
+            class="ornament-img"
+          />
+        </div>
+        <h6 class="cover-title">Upacara Mepandes (Potong Gigi)</h6>
+        <p class="cover-subtitle">Special Invitation</p>
+        <p class="cover-note">
+          Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i
+          untuk hadir di acara Mepandes kami.
+        </p>
+        <button class="btn-open" id="btnOpen" aria-label="Buka Undangan">
+          <span class="btn-icon">✉</span>
+          Buka Undangan
+        </button>
+      </div>
+    </section>
+
+    <!-- ======================== MAIN INVITATION ======================== -->
+    <main id="invitation" class="invitation hidden">
+      <!-- Audio Toggle -->
+      <button class="audio-toggle" id="audioToggle" aria-label="Toggle Music">
+        <span class="audio-icon audio-on">♪</span>
+        <span class="audio-icon audio-off">♪</span>
+        <span class="audio-bar bar1"></span>
+        <span class="audio-bar bar2"></span>
+        <span class="audio-bar bar3"></span>
+      </button>
+
+      <!-- ===== SECTION 1: Header / Greeting ===== -->
+      <section id="greeting" class="section section-greeting">
+        <div class="greeting-bg-wrapper">
+          <img
+            src="assets/bg.png"
+            alt=""
+            class="greeting-bg-img"
+            aria-hidden="true"
+          />
+        </div>
+        <div class="container">
+          <!-- Top ornament -->
+          <div class="ornament-divider fade-in">
+            <img
+              src="assets/ornament.png"
+              alt=""
+              class="ornament-small"
+              aria-hidden="true"
+            />
+          </div>
+
+          <p class="greeting-label fade-in">Upacara Manusa Yadnya</p>
+
+          <h6 class="greeting-main-title fade-in">
+            Mepandes<br />(Potong Gigi)
+          </h6>
+
+          <p class="greeting-family fade-in">Keluarga Besar Dewa Banjar</p>
+
+          <!-- Date with decorative dividers -->
+          <div class="greeting-date-wrapper fade-in">
+            <span class="greeting-date-line"></span>
+            <span class="greeting-date-day">Selasa</span>
+            <span class="greeting-date-line"></span>
+          </div>
+          <p class="greeting-date fade-in">17 Februari 2026</p>
+
+          <!-- Sanskrit Prayer Quote -->
+          <div class="greeting-prayer fade-in">
+            <p class="prayer-sanskrit">
+              "Bhadram karnebhih srunuyama devah. Bhadram pasyemaksabhir
+              yajatrah. Sthirair angais tustuvamsas tanubhir, Vyasema devahitam
+              yadayuh."
+            </p>
+            <p class="prayer-translation">
+              Ya Hyang Widhi Wasa, semoga telinga kami senantiasa mendengar
+              hal-hal yang suci. Semoga mata kami senantiasa melihat kebaikan
+              dalam pengabdian kami. Dengan tubuh yang teguh, izinkanlah kami
+              memuji keagungan-Mu sepanjang usia yang Engkau anugerahkan.
+            </p>
+          </div>
+
+          <!-- Rg Veda reference -->
+          <div class="greeting-veda fade-in">
+            <span class="veda-line"></span>
+            <span class="veda-text">Rg Veda I.89.8</span>
+            <span class="veda-line"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SECTION 2: Sane Mepandes (Names) ===== -->
+      <section id="sane-mepandes" class="section section-sane">
+        <div class="container">
+          <h6 class="section-heading fade-in">Sane Mepandes</h6>
+
+          <div class="sane-illustration fade-in">
+            <img
+              src="assets/sane-mepandes.png"
+              alt="Sane Mepandes"
+              class="sane-illust-img"
+            />
+          </div>
+
+          <ul class="sane-names-list fade-in">
+            <li>Sang Nyoman Yudha</li>
+            <li>Sang Putu Darma Sutha</li>
+            <li>Sang Ayu Made Nadia Utami</li>
+            <li>Sang Ayu Putu Budiantari</li>
+            <li>Sang Ayu Made Prianti</li>
+            <li>Sang Ayu Putu Sri Ardia Garini</li>
+            <li>Sang Nyoman Parinata</li>
+            <li>Sang Made Mertha Adi</li>
+            <li>Sang Putu Bagus Aditya Prabawa</li>
+            <li>Sang Ayu Made Cantika Pradnyani</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===== SECTION 3: Om Swastyastu (Prayer + Event Details) ===== -->
+      <section id="event" class="section section-swastyastu">
+        <div class="swastyastu-bg-wrapper">
+          <img
+            src="assets/bg-landing-page.png"
+            alt=""
+            class="swastyastu-bg-img"
+            aria-hidden="true"
+          />
+        </div>
+        <div class="container">
+          <div class="ornament-divider fade-in">
+            <img
+              src="assets/ornament.png"
+              alt=""
+              class="ornament-small"
+              aria-hidden="true"
+            />
+          </div>
+          <h2 class="section-heading fade-in">Om Swastyastu</h2>
+
+          <p class="swastyastu-text fade-in">
+            Atas Asung Kerta Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan yang
+            Maha Esa, kami bermaksud mengundang Bapak/Ibu/Saudara/i, pada Acara
+            Manusa Yadnya Mepandes (Potong Gigi) putra - putri kami, yang akan
+            dilaksanakan pada:
+          </p>
+
+          <div class="event-info fade-in">
+            <div class="event-info-item">
+              <span class="event-info-label">Hari/Tanggal</span>
+              <span class="event-info-value">17 Februari 2026</span>
+            </div>
+            <div class="event-info-divider"></div>
+            <div class="event-info-item">
+              <span class="event-info-label">Pukul</span>
+              <span class="event-info-value">03.00 Wita - Selesai</span>
+            </div>
+            <div class="event-info-divider"></div>
+            <div class="event-info-item">
+              <span class="event-info-label">Bertempat Di</span>
+            </div>
+            <div class="event-info-item event-info-address">
+              <span class="event-info-value"
+                >Dusun Penarukan, Desa Bungbungan, Kec. Banjarangkan, Kab.
+                Klungkung</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Countdown Timer -->
+      <section id="countdown" class="section section-countdown-mini">
+        <div class="container">
+          <h2 class="section-heading fade-in">Menghitung Hari</h2>
+          <div class="countdown-inline" id="countdownTimer">
+            <div class="countdown-item">
+              <span class="countdown-value" id="days">00</span>
+              <span class="countdown-label">Hari</span>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+              <span class="countdown-value" id="hours">00</span>
+              <span class="countdown-label">Jam</span>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+              <span class="countdown-value" id="minutes">00</span>
+              <span class="countdown-label">Menit</span>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+              <span class="countdown-value" id="seconds">00</span>
+              <span class="countdown-label">Detik</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SECTION 4: Om Shanti (Closing Prayer) ===== -->
+      <section id="closing" class="section section-shanti">
+        <div class="container">
+          <h2 class="shanti-prayer fade-in">Om Shanti Shanti<br />Shanti Om</h2>
+
+          <p class="shanti-subtitle fade-in">
+            Atas Perhatian Bapak/Ibu/Saudara/i,<br />kami haturkan terima
+            kasih.<br />Kami yang berbahagia,
+          </p>
+          <p class="shanti-family fade-in">Keluarga Besar Dewa Banjar</p>
+        </div>
+      </section>
+
+      <!-- ===== SECTION 5: Lokasi Acara ===== -->
+      <section id="location" class="section section-location">
+        <div class="container">
+          <h2 class="section-heading fade-in">Lokasi Acara</h2>
+
+          <div class="map-container fade-in">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3946.1518536926455!2d115.367522!3d-8.484612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjknMDQuNiJTIDExNcKwMjInMDMuMSJF!5e0!3m2!1sid!2sid!4v1770698566648!5m2!1sid!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <a
+            href="https://maps.app.goo.gl/joqtNkUfaKyDaY51A"
+            target="_blank"
+            rel="noopener"
+            class="btn-maps fade-in"
+          >
+            PETUNJUK MENUJU LOKASI
+          </a>
+        </div>
+      </section>
+
+      <!-- ===== SECTION 6: RSVP ===== -->
+      <section id="rsvp" class="section section-rsvp">
+        <div class="container">
+          <h2 class="rsvp-title fade-in">RSVP</h2>
+          <p class="rsvp-subtitle fade-in">
+            Merupakan suatu kebahagiaan apabila Bapak/Ibu/Saudara/i berkenan
+            hadir
+          </p>
+
+          <div class="rsvp-card fade-in">
+            <form class="rsvp-form" id="rsvpForm">
+              <div class="form-group">
+                <div class="input-icon">
+                  <span class="input-icon-symbol">👤</span>
+                  <input
+                    type="text"
+                    id="rsvpName"
+                    name="name"
+                    placeholder="Nama Lengkap"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-icon">
+                  <span class="input-icon-symbol">📋</span>
+                  <select id="rsvpAttendance" name="attendance" required>
+                    <option value="">Konfirmasi Kehadiran</option>
+                    <option value="hadir">Ya, Saya Akan Hadir</option>
+                    <option value="tidak">Maaf, Tidak Bisa Hadir</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-icon input-icon-textarea">
+                  <span class="input-icon-symbol">💌</span>
+                  <textarea
+                    id="rsvpMessage"
+                    name="message"
+                    rows="3"
+                    placeholder="Ucapan & Doa untuk keluarga..."
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn-submit" id="btnSubmit">
+                <span class="btn-submit-text">KIRIM UCAPAN</span>
+                <span class="btn-submit-icon">→</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Wishes Display -->
+          <div class="wishes-list" id="wishesList">
+            <h3 class="wishes-title fade-in">💐 Ucapan & Doa</h3>
+            <div class="wishes-container" id="wishesContainer"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Darma Sutha Undangan Online &copy; 2026</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
